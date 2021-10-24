@@ -1,0 +1,29 @@
+{
+    "name": "tiagof2/integration-callback-feedback",
+    "description": "Makes a request to the given URL passing the result of the requested action",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tiagof2\\IntegrationCallback\\": "src/IntegrationCallback/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago França",
+            "email": "dev@tiagofranca.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-json": "*",
+        "illuminate/contracts": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/validation": "^7.0|^8.0",
+        "larapack/dd": "^1.1"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}
